@@ -23,11 +23,11 @@ header, .body-central, .feature-work, .feature-header, .project-preview, .projec
 }
 
 .header-logo {
-    width: 30%;
+    width: 25%;
 }
 
 .header-text {
-    width: 70%;
+    width: 75%;
 }
 
 
@@ -55,17 +55,17 @@ img.cover, img.cover2 {
 /* HEADER FORMAT */
 
 header {
-    border-bottom: 4px solid #7d97ad;
+    border-bottom: 2.5px solid #7d97ad;
     margin-top: 0.5em;
 }
 
 .header-logo {
-    margin-top: 1em;
+    margin-top: 0.9em;
     margin-bottom: 0.5em;
 }
 
 .logo-image {
-    height: 60px;
+    height: 45px;
     border-radius: 55px;
     margin-left: 0.5em;
 }
@@ -92,7 +92,7 @@ header {
 }
 
 .text-super {
-    font-size: 2.0em;
+    font-size: 1.65em;
 }
 
 .title-margin {
@@ -100,11 +100,15 @@ header {
     margin-bottom: 0;
 }
 
+.header-sub {
+    font-size: 0.8em;
+}
+
 
 /* FEATURE IMAGE FORMAT */
 
 .body-central {
-    margin-top: 1.5em;
+    margin-top: 1.3em;
     margin-bottom: 0.5em;
     max-height: 450px;
 }
@@ -121,26 +125,34 @@ header {
 }
 
 .feature-header {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .project-preview {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     text-align: center;
 }
 
 .project-preview:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .text-large {
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 .text-margin {
-    margin-top: 0.5em;
+    margin-top: 0.6em;
     margin-bottom: 0;
+}
+
+.project-description {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    text-align: justify; 
 }
 
 
@@ -150,8 +162,8 @@ footer {
     background-color: lavender;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -171,11 +183,33 @@ footer {
 
 /* MEDIA QUERIES */
 
-/*
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 400px) {
+   header {
+        border-bottom: 4px solid #7d97ad;
+    }
    
+   .logo-image {
+        transition: height 0.5s;
+        height: 60px;
+    }
+    
+    .text-super {
+        transition: font-size 0.5s;
+        font-size: 2.0em;
+    }
+
+    .header-sub {
+        font-size: 0.9em;
+    }
+
+    .body-central {
+        margin-top: 1.5em;
+    }
+
+    .project-preview {
+        margin-bottom: 20px;
+    }
 }
-*/
 
 @media screen and (min-width: 500px) {
     .logo-image {
@@ -188,9 +222,23 @@ footer {
         font-size: 2.5em;
     }
 
+    .header-sub {
+        font-size: 1.0em;
+    }
+
     .main-image {
         transition: heigth 0.75s;
         height: 300px;
+    }
+
+    .feature-header {
+        transition: font-size 0.5s;
+        font-size: 1.55em;
+    }
+
+    .text-large {
+        transition: font-size 0.5s;
+        font-size: 1.35em;
     }
 
     .project-image, .project-text {
@@ -209,11 +257,22 @@ footer {
     }
 
     .project-title {
-        margin-top: 3.75em;
+        margin-top: 1.2em;
     }
 
     .project-text {
-        background-color: lightgray;
+        background-color: #e9e8ef;
+    }
+
+    .project-description {
+        text-align: center;
+        margin-top: 0.9em;
+        font-size: 1.05em;
+    }
+
+    footer {
+        margin-bottom: 30px;
+        margin-top: 25px;
     }
 }
 
@@ -226,6 +285,11 @@ footer {
     .text-super {
         transition: font-size 0.5s;
         font-size: 3em;
+    }
+
+    .header-sub {
+        transition: font-size 0.5s;
+        font-size: initial;
     }
 
     .body-central {
@@ -243,13 +307,18 @@ footer {
         font-size: 1.75em;
     }
 
+    .project-title {
+        margin-top: 1.5em;
+    }
+
     .text-large {
         transition: font-size 0.5s;
         font-size: 1.5em;
     }
 
-    .project-title {
-        margin-top: 3.25em;
+    .project-description {
+        margin-top: 1em;
+        font-size: 1.1em;
     }
 }
 
@@ -295,10 +364,17 @@ footer {
     }
 
     .project-title {
-        margin-top: 0.5em;
+        margin-top: 0.65em;
     }
 
     .project-text {
         background-color: inherit;
+    }
+
+    .project-description {
+        text-align: justify;
+        margin-top: 0.75em;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 }
