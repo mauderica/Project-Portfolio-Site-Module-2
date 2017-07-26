@@ -9,9 +9,10 @@ Required:
 - Final pass: make images responsive (so that they look nice at all viewport sizes --> both container size and the position and scale of the image within the container)
 - go through project criteria for other to-dos
 - Edit project link so that when user hovers with mouse over it, a message with the link appears.
-- create alternate images of different file size and resolution and use <picture> and srcset to give the browser information to choose the appropriate image
 - replace the no-break-spaces in html with css styling
 - ensure code passes html and css validators (& pagespeed insights?)
+- .cover & .cover2 --> may be able to use just one, OR to put those styles under main-image and project-image (although the latter would not be the most concise)? ... keep both if am thinking of adjusting the positioning of the .cover2 images separately from the .cover ones
+- clean-up and segregate as necessary the use of "title margin"
 
 
 DONE:
@@ -23,5 +24,6 @@ DONE:
 - First pass: make the overall site responsive (so that it looks nice at different sizes --> images, overall layout, text sizes)
 - Second pass: make the overall site responsive (so that it looks nice at different sizes --> images, overall layout, text sizes)
 - fix title and footer responsiveness sizes for 320px-400px viewport width
+- create alternate images of different file size and resolution and use <picture> and srcset to give the browser information to choose the appropriate image
 
 
