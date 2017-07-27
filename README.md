@@ -3,7 +3,6 @@
 TODO:
 
 In progress:
-- verify shorthand CSS properties were used where possible (see udacity style guide and understand when can use shorthand or not -- even if only specify one value).
 - LAST: format documents and commit that change on its own
 - go over the "may do later" list with mentor
 
@@ -35,4 +34,4 @@ DONE:
 - go through project criteria for other to-dos
 - go through Udacity style guide
 - review the project submission page criteria
-
+- verify shorthand CSS properties were used where possible (see udacity style guide and understand when can use shorthand or not -- even if only specify one value).
