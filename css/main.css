@@ -11,12 +11,10 @@ body {
     align-content: center;
 }
 
-
 .container {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 header,
 .body-central,
@@ -30,16 +28,13 @@ footer {
     width: 100%;
 }
 
-
 .header-logo {
     width: 25%;
 }
 
-
 .header-text {
     width: 75%;
 }
-
 
 
 /* COMMON STYLES */
@@ -48,11 +43,9 @@ footer {
     object-position: 10% 10%;
 }
 
-
 .text-muted {
     color: #a4aab2;
 }
-
 
 
 /* HEADER - INITIAL FORMAT */
@@ -61,19 +54,16 @@ header {
     margin-top: 0.5em;
 }
 
-
 .header-logo {
     margin-top: 0.9em;
     margin-bottom: 0.5em;
 }
-
 
 .logo-image {
     height: 45px;
     border-radius: 55px;
     margin-left: 0.5em;
 }
-
 
 /*
 .icon-logo {
@@ -91,12 +81,10 @@ header {
 }
 */
 
-
 .header-text {
     text-align: right;
     text-transform: uppercase;
 }
-
 
 .header-super {
     font-size: 1.65em;
@@ -105,13 +93,11 @@ header {
     margin-bottom: 0;
 }
 
-
 .header-sub {
     font-size: 0.8em;
     margin-top: 0.3em;
     margin-bottom: 0;
 }
-
 
 
 /* BODY CENTRAL - INITIAL FORMAT */
@@ -121,11 +107,9 @@ header {
     max-height: 450px;
 }
 
-
 .main-image {
     height: 250px;
 }
-
 
 
 /* FEATURE WORK - INITIAL FORMAT */
@@ -133,13 +117,11 @@ header {
     margin-bottom: 20px;
 }
 
-
 .feature-header {
     font-size: 1.4em;
     margin-top: 0.6em;
     margin-bottom: 0.1em;
 }
-
 
 .project-preview {
     margin-top: 10px;
@@ -147,16 +129,13 @@ header {
     text-align: center;
 }
 
-
 .project-preview:last-of-type {
     margin-bottom: 5px;
 }
 
-
 .project-image {
     height: 200px;
 }
-
 
 .project-title {
     font-size: 1.2em;
@@ -165,7 +144,6 @@ header {
     margin-bottom: 0;
 }
 
-
 .project-description {
     padding-right: 20px;
     padding-left: 20px;
@@ -173,7 +151,6 @@ header {
     margin-bottom: 0.5em;
     text-align: justify; 
 }
-
 
 
 /* FOOTER - INITIAL FORMAT */
@@ -186,12 +163,10 @@ footer {
     text-align: center;
 }
 
-
 [class*="fontawesome-"]:before {
     font-family: "FontAwesome", sans-serif;
     display: inline-block;
 }
-
 
 .icon-footer {
     font-size: 1.5em;
@@ -200,7 +175,6 @@ footer {
     margin-right: 20px;
     margin-left: 20px;
 }
-
 
 
 /*  ****** MEDIA QUERIES ******  */
@@ -213,30 +187,25 @@ footer {
         border-bottom: 3px solid #7d97ad;
     }
     
-
     .logo-image {
         transition: height 0.5s;
         height: 60px;
     }
     
-
     .header-super {
         transition: font-size 0.5s;
         font-size: 2.0em;
     }
-
 
     .header-sub {
         transition: font-size 0.5s;
         font-size: 0.9em;
     }
 
-
     /* BODY CENTRAL - MODIFIED FORMAT */
     .body-central {
         margin-top: 1.5em;
     }
-
 
     /* FEATURE WORK - MODIFIED FORMAT */
     .feature-header {
@@ -244,13 +213,11 @@ footer {
         font-size: 1.45em;
     }
 
-
     .project-preview {
         margin-bottom: 20px;
     }
 
 }
-
 
 
 /*  *** MAJOR BREAK-POINT ***  */
@@ -261,18 +228,15 @@ footer {
         border-bottom: 3.4px solid #7d97ad;
     }
     
-
     .logo-image {
         transition: height 0.5s;
         height: 70px;
     }
     
-
     .header-super {
         transition: font-size 0.5s;
         font-size: 2.5em;
     }
-
 
     .header-sub {
         transition: font-size 0.5s;
@@ -280,13 +244,11 @@ footer {
         margin-top: 0.2em;
     }
 
-
     /* BODY CENTRAL - MODIFIED FORMAT */
     .main-image {
         transition: heigth 0.75s;
         height: 300px;
     }
-
 
     /* FEATURE WORK - MODIFIED FORMAT */
     .feature-header {
@@ -294,11 +256,9 @@ footer {
         font-size: 1.55em;
     }
 
-
     .project-image {
         margin-right: 15px;
     }
-
 
     .project-image,
     .project-text {
@@ -306,11 +266,9 @@ footer {
         width: calc((100% - 15px)/2);
     }
 
-
     .project-text {
         background-color: #e9e8ef;
     }
-
 
     .project-title {
         transition: font-size 0.5s;
@@ -318,13 +276,11 @@ footer {
         margin-top: 1.2em;
     }
 
-
     .project-description {
         text-align: center;
         margin-top: 0.9em;
         font-size: 1.05em;
     }
-
 
     /* FOOTER - MODIFIED FORMAT */
     footer {
@@ -335,7 +291,6 @@ footer {
 }
 
 
-
 /*  *** MINOR BREAK-POINT ***  */
 @media screen and (min-width: 640px) {
     
@@ -344,18 +299,15 @@ footer {
         border-bottom: 4px solid #7d97ad;
     }
     
-
     .logo-image {
         transition: height 0.5s;
         height: 80px;
     }
     
-
     .header-super {
         transition: font-size 0.5s;
         font-size: 3em;
     }
-
 
     .header-sub {
         transition: font-size 0.5s;
@@ -363,19 +315,16 @@ footer {
         margin-top: 0.05em;
     }
 
-
     /* BODY CENTRAL - MODIFIED FORMAT */
     .body-central {
         transition: margin-top 0.5s;
         margin-top: 2em;
     }
 
-
     .main-image {
         transition: heigth 0.75s;
         height: 350px;
     }
-
 
     /* FEATURE WORK - MODIFIED FORMAT */
     .feature-header {
@@ -383,13 +332,11 @@ footer {
         font-size: 1.75em;
     }
 
-
     .project-title {
         transition: font-size 0.5s;
         font-size: 1.5em;
         margin-top: 1.5em;
     }
-
 
     .project-description {
         margin-top: 1em;
@@ -397,7 +344,6 @@ footer {
     }
 
 }
-
 
 
 /*  *** MAJOR BREAK-POINT ***  */
@@ -409,24 +355,20 @@ footer {
         height: 100px;
     }
 
-
     .header-super {
         transition: font-size 0.5s;
         font-size: 3.5em;
     }
 
-
     .header-sub {
         margin-top: 0.15em;
     }
-
 
     /* BODY CENTRAL - MODIFIED FORMAT */
     .main-image {
         transition: heigth 0.5s;
         height: 450px;
     }
-
 
     /* FEATURE WORK - MODIFIED FORMAT */
     .feature-header {
@@ -435,7 +377,6 @@ footer {
         margin-bottom: 0.05em;
     }
 
-
     .project-preview {
         transition: width 0.75s;
         width: calc((100% - 40px)/3);
@@ -443,32 +384,26 @@ footer {
         margin-bottom: 0;
     }
 
-
     .project-preview:last-of-type {
         margin-right: 0;
     }
 
-
     .project-image {
         margin-right: 0;
     }
-
 
     .project-image,
     .project-text {
         width: 100%;
     }
 
-
     .project-text {
         background-color: inherit;
     }
 
-
     .project-title {
         margin-top: 0.65em;
     }
-
 
     .project-description {
         text-align: justify;
@@ -476,7 +411,6 @@ footer {
         padding-right: 25px;
         padding-left: 25px;
     }
-
 
     /* FOOTER - MODIFIED FORMAT */
     footer {
